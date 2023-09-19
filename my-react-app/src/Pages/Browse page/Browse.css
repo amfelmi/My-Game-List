@@ -1,0 +1,38 @@
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #999;
+}
+
+.load-more-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.load-more-button button {
+  width: 50%;
+  height: 50px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more-button button:hover {
+  background-color: #d98e1b;
+}

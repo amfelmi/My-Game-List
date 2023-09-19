@@ -1,0 +1,105 @@
+.recommender-container {
+    height: 88vh;
+}
+
+.box-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.box {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.recommender-input {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlap {
+    position: relative;
+    display: flex;
+}
+
+.search-bar {
+    width: 225.33px;
+    height: 39px;
+    background-color: transparent;
+    font-size: 0;
+    color: aliceblue;
+    border-radius: 8px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+    border: #44444b;
+    border-style: solid;
+    border-width: thin;
+    transition: width 0.9s;
+}
+
+.go-button {
+    height: 42%;
+    background-color: #44444b;
+    border: none;
+    border-radius: 7px;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+    min-width: 35.22;
+    color: white;
+}
+
+.go-button:hover {
+    cursor: pointer;
+    background-color: rgb(56, 54, 54);
+}
+
+.go-button:active {
+    box-shadow: 0px 2px 4px rgb(247, 190, 5);
+    background-color: goldenrod;
+}
+
+.results-wrapper {
+    gap: 40px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+}
+
+.recommendation-card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 9px;
+    scroll-snap-align: start;
+}
+
+.recommendation-card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.recommendation-card-image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}

@@ -1,0 +1,10 @@
+.footer-background {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-background>h5>small {
+    margin: 5px;
+}

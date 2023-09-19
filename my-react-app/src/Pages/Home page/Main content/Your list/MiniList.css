@@ -1,0 +1,72 @@
+.minilist-container {
+    padding: 20px;
+    display: inline-block;
+    margin-left: 2%;
+    box-sizing: border-box;
+    width: 95%;
+    align-items: center;
+}
+
+.minilist-game-wrapper {
+    border: 1px solid rgb(89, 99, 101);
+    padding: 10px;
+    min-height: 500px;
+    max-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    max-height: 500px;
+}
+
+.minilist-games {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-listed-game {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.listed-thumbnail {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.mini-listed-title {
+    font-size: 1.3em;
+    margin-left: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.mini-listed-title:hover {
+    color: gold;
+}
+
+.minilist-link {
+    text-decoration: none;
+    color: rgb(52, 52, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.5s ease;
+    display: inline-block;
+}
+
+.minilist-link:hover {
+    background-color: #888892;
+    border-radius: 5px;
+}
+
+.sign-in-para {
+    font-size: 1.5em;
+}

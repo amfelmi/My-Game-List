@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.gamedetail-container {
+  position: relative;
+  background-color: #111;
+  color: white;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.gamedetail-thumbnail {
+  background-size: auto 100%;
+  background-position: center top;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.gamedetail-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.gamedetail-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.left-column {
+  padding: 0px 4px 16px 16px;
+}
+
+.seperator {
+  background-color: #ffffff33;
+  margin: 0px 8px;
+  width: 1px;
+}
+
+.right-column {
+  padding: 0px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.right-column li {
+  margin-right: 12px;
+  margin-bottom: 6px;
+  padding-right: 12px;
+  position: relative;
+}
+
+.right-column h3 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.gamedetail-tags>ul>li::first-letter {
+  text-transform: uppercase;
+}
+
+.overlay-toggle-button {
+  visibility: visible;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.loading-screen {
+  background-image: url('./loading.gif');
+  background-size: auto 100%;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+}

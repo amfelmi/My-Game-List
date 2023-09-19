@@ -1,0 +1,196 @@
+.mylist-page {
+    padding: 0;
+    margin: 0;
+}
+
+.listed-game-wrapper {
+    border: 1px solid rgb(89, 99, 101);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.listed-game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.listed-game {
+    border: 1px solid rgb(89, 99, 101);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.listed-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 10px;
+}
+
+.listed-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-right: 30px;
+}
+
+.listed-thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.listed-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.listed-rating {
+    font-weight: bold;
+}
+
+.dropdowns {
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #2a2d2f;
+    border: 1px solid #ccc;
+    border-color: rgb(48, 52, 54);
+    color: white;
+    border-radius: 5px;
+}
+
+.masterpiece:hover {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: gold;
+}
+
+.gold:hover {
+    color: silver;
+}
+
+.bronze:hover {
+    color: brown;
+}
+
+.score-link {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+.remove-game-from-list-btn {
+    padding: 0;
+}
+
+.remove-btn {
+    background-color: red;
+}
+
+.remove-btn {
+    color: black;
+    background-color: red;
+}
+
+.remove-btn:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+
+.podium-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow-x: hidden;
+    height: 52vh;
+    padding: 15px;
+    border: 1px solid rgb(112, 120, 123);
+}
+
+.podium-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stand-second {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 50px;
+    background-color: silver;
+    order: 2;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stand-first {
+    height: 250px;
+    width: 400px;
+    margin-bottom: 50px;
+    background-color: gold;
+    order: 2;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stand-third {
+    height: 190px;
+    width: 400px;
+    margin-bottom: 50px;
+    background-color: rgb(91, 25, 25);
+    order: 2;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.podium-selector-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.podium-selector {
+    padding: 10px;
+    background-color: #2a2d2f;
+    border: 1px solid #ccc;
+    border-color: rgb(48, 52, 54);
+    color: white;
+    border-radius: 5px;
+}
+
+.podium-image {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.podium-title {
+    color: black;
+    font-weight: bold;
+}
+
+.gold-podium {
+    width: 150px;
+    margin-bottom: 25px;
+}

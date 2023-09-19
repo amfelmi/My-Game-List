@@ -1,0 +1,41 @@
+.search-container {
+  position: relative;
+}
+
+.duplicate-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 225.33px;
+  height: 39px;
+  background-color: transparent;
+  font-size: 0.9rem;
+  color: aliceblue;
+  border-radius: 8px;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 0%;
+  border: #44444b;
+  border-style: solid;
+  border-width: thin;
+  transition: width 0.9s;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: grey;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-item {
+  padding: 8px;
+  cursor: pointer;
+}

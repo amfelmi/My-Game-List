@@ -1,0 +1,10 @@
+.searchbar-component {
+    position: relative;
+    z-index: 9999;
+}
+
+.twin-lists {
+    display: inline-block;
+    width: 48%;
+    margin: 1%;
+}

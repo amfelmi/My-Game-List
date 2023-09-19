@@ -1,0 +1,69 @@
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 100%;
+  background-image:
+    linear-gradient(0deg, #000000 0, #000000 21.48148148%, rgba(0, 0, 0, 0) 58.51851852%, rgba(20, 24, 29, 0) 100%),
+    url('./../../armored-core-hero.jpg');
+  background-size: cover;
+  background-position: center top;
+  border-radius: 10px;
+}
+
+.hero-info-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2) 0, black 110%);
+  pointer-events: none;
+}
+
+.hero-image::before {
+  left: 0;
+  top: 0;
+  transform-origin: left;
+}
+
+.hero-image::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0, black 110%);
+  pointer-events: none;
+}
+
+.hero-image::after {
+  right: 0;
+  top: 0;
+  transform-origin: right;
+}
+
+.hero-header {
+  font-family: TiemposHeadlineWeb-Bold, Georgia, serif;
+  font-size: 2.76923077rem;
+  line-height: 1.33333333;
+}
